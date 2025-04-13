@@ -1,0 +1,83 @@
+body {
+    margin: auto;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    align-items:self-start;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Fira Code', monospace;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.markdown-body {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+code {
+    background-color: #161b22;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+
+pre {
+    background-color: #161b22;
+    padding: 1em;
+    overflow-x: auto;
+    border-radius: 6px;
+}
+
+.markdown-body {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    color: #e1e4e8;
+    background: #0d1117;
+    font-family: 'Fira Code', monospace;
+    line-height: 1.6;
+}
+
+/* Custom heading colors */
+.markdown-body h1 {
+    font-size: 2.5rem;
+    color: #58a6ff;
+    margin-top: 2rem;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 0.3rem;
+}
+.markdown-body h2 {
+    font-size: 2rem;
+    color: #a5d6ff;
+    margin-top: 2rem;
+}
+.markdown-body h3 {
+    font-size: 1.5rem;
+    color: #79c0ff;
+    margin-top: 1.5rem;
+}
+
+/* List styling */
+.markdown-body ul {
+    padding-left: 1.5rem;
+}
+.markdown-body li {
+    margin: 0.3rem 0;
+}
+
+.file-header{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+/* .markdown-body {
+    padding-left: 10rem; 
+} */
+
+.home{
+    padding-left: 10rem;
+}
