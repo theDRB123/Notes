@@ -1,7 +1,7 @@
 // src/pages/Home.tsx
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-const base_url = import.meta.env.SERVER_URL || "http://localhost:5174";
+const base_url = import.meta.env.VITE_SERVER_URL || "http://localhost:8081";
 type MarkdownFile = {
     name: string;
     path: string;

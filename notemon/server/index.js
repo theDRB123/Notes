@@ -9,8 +9,8 @@ const app = express();
 // Allow cross-origin requests from React dev server
 app.use(cors());
 app.use(express.json());
-const PORT = process.env.PORT || 5174;
-const HOST = process.env.HOST || 'localhost';
+const PORT = process.env.PORT || 8081;
+const HOST = process.env.HOST || '0.0.0.0';
 
 const NOTES_DIR = path.resolve(__dirname, '../../Notes/Hosted');
 

@@ -6,7 +6,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
 import 'highlight.js/styles/github-dark.css';
 
-const base_url = import.meta.env.SERVER_URL || "http://localhost:5174";
+const base_url = import.meta.env.VITE_SERVER_URL || "http://localhost:8081";
 export default function MarkdownPage() {
     const { file } = useParams();
     const [content, setContent] = useState<string>('Loading...');
