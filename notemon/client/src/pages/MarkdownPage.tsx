@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
+import 'highlight.js/styles/github-dark.css';
+
 const base_url = import.meta.env.SERVER_URL || "http://localhost:5174";
 export default function MarkdownPage() {
     const { file } = useParams();
