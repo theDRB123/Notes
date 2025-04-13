@@ -12,7 +12,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 8081;
 const HOST = process.env.HOST || '0.0.0.0';
 
-const NOTES_DIR = path.resolve(__dirname, '../../Notes/Hosted');
+const NOTES_DIR = path.resolve(__dirname, './Notes/Hosted');
 
 function getMarkdownFiles(dir, base = '') {
     const files = fs.readdirSync(dir, { withFileTypes: true });
@@ -56,6 +56,9 @@ app.post('/md/file', (req, res) => {
     res.sendFile(filePath);
 });
 
+app.get('test', (req, res) => {
+    res.send('test');
+});
 
 app.get('/md/getDirectory', (req, res) => {
     try {

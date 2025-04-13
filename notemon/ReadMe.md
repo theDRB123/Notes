@@ -1,28 +1,9 @@
 # Notemon | Simple Markdown Host
 
-## Notemon Client
 
-- add the server url to the .env file
-`VITE_SERVER_URL=http://HOST:PORT`
-
-- run the client
-```bash
-npm install
-npm run dev
+To Run notemon, just install docker and execute the following command:
 ```
-
-
-## Notemon Server
-
-- add the server host & port to the .env file
-
-`HOST=localhost`
-`PORT=3000`
-
-- run the server
-```bash
-npm install
-node index.js
+docker compose up -d
 ```
 
 ## Usage with Obsidian
