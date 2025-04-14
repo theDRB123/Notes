@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angor Intern/Angor Hardware Wallet Integration.md",
+                "file": "Hosted/MyLibrary.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angor Intern/Angor Hardware Wallet Integration.md",
+                "file": "Hosted/MyLibrary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angor Intern/Angor Hardware Wallet Integration.md",
+                "file": "Hosted/MyLibrary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angor Intern/Angor Hardware Wallet Integration.md"
+                "file": "Hosted/MyLibrary.md"
               }
             }
           },
@@ -188,16 +188,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "19f609fb9c6bd3b2",
+  "active": "1acbf0a2847b146c",
   "lastOpenFiles": [
+    "Tasks.md",
+    "Angor Intern/Angor Hardware Wallet Integration.md",
     "Hosted/My Library.md",
     "Hosted/Blogs/test.md",
     "Hosted/Blogs",
     "Hosted/MyLibrary.md",
-    "Angor Intern/Angor Hardware Wallet Integration.md",
     "Untitled",
     "Hosted",
-    "Tasks.md",
     "Interesting Math/Fast Fibonacci.md",
     "Interesting Math/Cryptographic Accumulators.md",
     "Interesting Math",
