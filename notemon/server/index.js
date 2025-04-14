@@ -6,6 +6,8 @@ const cors = require('cors');
 
 const app = express();
 
+const { exec } = require('child_process');
+
 // Allow cross-origin requests from React dev server
 app.use(cors());
 app.use(express.json());
@@ -59,6 +61,18 @@ app.post('/md/file', (req, res) => {
 app.get('test', (req, res) => {
     res.send('test');
 });
+
+app.get('update', (req, res) => {
+    exec('/app/scripts/gitpull.sh', (err, stdout, stderr) => {
+        if (err) {
+            console.error('Script failed:', stderr);
+        } else {
+            console.log('Script output:', stdout);
+        }
+    });
+});
+
+
 
 app.get('/md/getDirectory', (req, res) => {
     try {
