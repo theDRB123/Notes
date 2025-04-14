@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.post('/webhook', (req, res) => {
     console.log('Received webhook event:', req.body);
-    exec("git pull", (error, stdout) => {
+    exec("git stash && git pull && git stash pop", (error, stdout) => {
         if (error) {
             console.error(`Error pulling changes: ${error.message}`);
             return res.status(500).send('Error pulling changes');
