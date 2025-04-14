@@ -1,5 +1,3 @@
-# Testing Config
-
 ### Manga :
 - Chainsaw man
 - JJK
