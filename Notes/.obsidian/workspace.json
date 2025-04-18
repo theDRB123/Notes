@@ -45,6 +45,40 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Angor Intern/Angor Hardware Wallet Integration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f06f7ae84cff7610",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DOS Prevention for P2PoolV2 networking stack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e19084f8bb9615f4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-15 21.20.37.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "c8430562cb158d6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Hosted/MyLibrary.md",
                 "mode": "source",
                 "source": false
@@ -52,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -102,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "4b0ae9bbc0585058",
@@ -175,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,13 +219,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1acbf0a2847b146c",
+  "active": "c8430562cb158d6c",
   "lastOpenFiles": [
     "Tasks.md",
     "Angor Intern/Angor Hardware Wallet Integration.md",
+    "Excalidraw/Drawing 2025-04-15 17.25.45.excalidraw.md",
+    "Excalidraw/Drawing 2025-04-15 21.20.37.excalidraw.md",
+    "DOS Prevention for P2PoolV2 networking stack.md",
+    "Pasted image 20250415193235.png",
+    "Untitled.canvas",
+    "Excalidraw",
     "Hosted/My Library.md",
     "Hosted/Blogs/test.md",
     "Hosted/Blogs",
