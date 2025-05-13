@@ -68,7 +68,7 @@
 	- Pokemon RED
 		- Pokemon Series
 
-Movie Watchlist :
+### Movie Watchlist :
 - Upgrade
 - Downsizing
 - In pursuit of happiness 

@@ -56,3 +56,13 @@ public static void AddKeyPaths(this PSBT psbt, KeyManager keyManager)
 
 
 changing the derivation to use unhardened childs for extPubKey
+
+
+
+Instead of using the full path directly we just generate addresses using the xpub key 
+based on paths '/0/0'
+
+currently angor had the words so directly telling to derive a full path worked, not we have to change it to only use part after the account part for derivation,
+
+but in the psbt put it as full path
+
