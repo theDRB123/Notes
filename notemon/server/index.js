@@ -58,6 +58,20 @@ app.post('/md/file', (req, res) => {
     res.sendFile(filePath);
 });
 
+app.get('/img/:imageName', (req, res) => {
+    const { imageName } = req.params;
+    const imagePath = path.resolve(NOTES_DIR, `Images/${imageName}`);
+    if (!imagePath.startsWith(NOTES_DIR)) {
+        return res.status(403).send('Access denied');
+    }
+
+    res.sendFile(imagePath, (err) => {
+        if (err) {
+            res.status(404).send('Image not found.');
+        }
+    });
+});
+
 app.get('test', (req, res) => {
     res.send('test');
 });
